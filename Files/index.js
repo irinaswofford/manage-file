@@ -137,24 +137,16 @@ export default function Files() {
   return (
 
     <div>
-
-
       <div className="divUIHolder">
-
         <div className="divCaption">
           <button onClick={event => handleClick_addNewFile(event)}>Add New File</button>
         </div>
-
-
         {/* TODO: Implement sort feature according to task (3) */}
-
         <div className="divCaption">
           <button onClick={event => handleClick_toggleSortAscending(event)} className="buttonSort" title="Toggle Sort Ascending/Descending">
             {isSortAscending === true ? "Sort A-Z" : "Sort Z-A"}
           </button>
         </div>
-
-
         {
           files.map((file, index) => {
             return <File file={file} files={files} isSortAscending={isSortAscending} reRenderGrid={reRenderGrid} key={file.id}></File>

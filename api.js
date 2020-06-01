@@ -43,8 +43,6 @@ export async function getFiles() {
 export async function addFile(fileName) {
   // TODO: Implement this API to add a new file according to task (5).
 
-
-
   let newFile = {
     id: `the-file-id-${files.length + 1}`,
     versions: [
@@ -56,7 +54,6 @@ export async function addFile(fileName) {
 }
 
 export async function addVersion(fileId, name) {
-
 
   // TODO: Insert the new version on the beginning of the stack according to task (1)
   const file = files.find(f => f.id === fileId);
@@ -73,7 +70,4 @@ export async function addVersion(fileId, name) {
   // sort versions descending
   file.versions.sort((a, b) => (a.id > b.id) ? -1 : 1);
 
-
 }
-
-

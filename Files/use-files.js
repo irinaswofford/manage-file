@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getFiles } from '../api';
 
-
-
 export function useFiles() {
 
   const [files, setFiles] = useState([]);
@@ -21,10 +19,6 @@ export function useFiles() {
 
       });
   }, []);
-
-
-
-  
 
   return files;
 }
@@ -86,6 +80,3 @@ export function sortFileNamesDescending(files) {
 
   return files;
 }
-
-
-

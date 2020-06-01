@@ -49,14 +49,10 @@ button.buttonAddNewVersion {
   
 }
 
-button.buttonSort{
-}
-
 div.divCaption{
   padding: 30px 30px 5px 30px;
   border-top: solid 1px rgb(202, 202, 202);
 }
-
 
 div.divReadoutHolder {
   border-top: solid 1px rgb(202, 202, 202);
@@ -64,8 +60,6 @@ div.divReadoutHolder {
   padding: 5px 30px 5px 30px;
 
 }
-
-
 
 div.divUIHolder {
   margin: 0px auto;

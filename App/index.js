@@ -1,7 +1,5 @@
 import React from 'react';
-
 import styles from './index.module.css';
-
 import Files from '../Files';
 
 function App() {
