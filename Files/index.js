@@ -64,7 +64,6 @@ function File({ file, files, isSortAscending, reRenderGrid }) {
 }
 
 
-
 export default function Files() {
 
   // TODO: Replace this polling-like implementation according to task (2)

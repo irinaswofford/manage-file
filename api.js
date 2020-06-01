@@ -12,7 +12,7 @@ const files = [
       { id: 1, name: 'recipes.doc' },
       { id: 0, name: 'recipes.doc' },
     ],
-  },
+  },  
   {
     id: 'the-file-id-3',
     versions: [
